@@ -1,0 +1,17 @@
+{        
+	"endpoint": {
+		"method":"GET",         
+		"url":"http://sample_domain_endpoint.com/data?title={mascot}&image={location}&foo={bar}"
+	},
+	"data":[
+		{
+			"mascot":"Gopher",
+			"location":"https://blog.golang.org/gopher/gopher.png"
+		},
+		{
+			"mascot":"Gopher",
+			"location":"https://blog.golang.org/gopher/gopher.png",
+			"bar":"bar"
+		}
+	]
+}

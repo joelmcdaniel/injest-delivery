@@ -1,0 +1,17 @@
+{        
+	"endpoint": {
+		"method":"GET",         
+		"url":"https://postman-echo.com/get?title={mascot}&image={location}&foo={bar}"
+	},
+	"data":[
+		{
+			"mascot":"Gopher",
+			"location":"https://blog.golang.org/gopher/gopher.png"
+		},
+		{
+			"mascot":"Gopher",
+			"location":"https://blog.golang.org/gopher/gopher.png",
+			"bar":"bar"
+		}
+	]
+}
